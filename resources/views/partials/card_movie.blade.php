@@ -1,7 +1,9 @@
 <div class="card border-0 shadow h-100">
+
     <img src="https://picsum.photos/200/300?random={{$movie->id}}">
 
     <div class="card-body text-center d-flex flex-column gap-3">
+
         <div>
             <h5>title:</h5>
             <div class="info">{{$movie->title}}</div>
@@ -28,4 +30,6 @@
         </div>
 
     </div>
+    {{-- /.card-body --}}
+
 </div>

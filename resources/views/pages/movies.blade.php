@@ -12,22 +12,26 @@
 
                 @forelse($movies as $movie)
 
-                <div class="col">
+                    <div class="col">
 
-                    @include('partials.card_movie')
+                        @include('partials.card_movie')
 
-                </div>
+                    </div>
+                    {{-- /.col --}}
 
                 @empty
 
-                <div>No movies available</div>
+                    <div>No movies available</div>
 
                 @endforelse
 
             </div>
+            {{-- /.row --}}
 
         </div>
-        
+        {{-- /.container --}}
+
     </section>
+    {{-- /section --}}
 
 @endsection
