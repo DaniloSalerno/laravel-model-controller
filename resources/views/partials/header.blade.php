@@ -1,8 +1,12 @@
 <header>
     <nav class="navbar navbar-expand navbar-light bg-light">
-        <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Home</a>
+        <div class="container py-2">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link" href="{{route('home')}}">Home</a>
+                <a class="nav-item nav-link" href="{{route('movies')}}">Movies</a>
+                <a class="nav-item nav-link" href="#">Contacts</a>
+                <a class="nav-item nav-link" href="#">About</a>
+            </div>
         </div>
     </nav>
 </header>
