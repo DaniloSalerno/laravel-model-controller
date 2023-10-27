@@ -1,0 +1,17 @@
+.nav {
+    a {
+        color: white;
+
+        &.active {
+            color: black;
+            background-color: white;
+        }
+
+        &:hover {
+            color: red;
+
+            transition: all, 0.3s;
+        }
+    }
+
+}
