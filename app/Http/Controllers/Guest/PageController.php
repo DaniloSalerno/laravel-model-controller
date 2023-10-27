@@ -10,7 +10,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('welcome', ['movies' => Movie::all()]);
+        return view('welcome', ['movies' => Movie::orderByDesc('id')->limit(4)->get()]);
     }
 
     public function movies()

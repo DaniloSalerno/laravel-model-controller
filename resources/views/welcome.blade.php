@@ -1,7 +1,15 @@
 @extends('layouts.app')
 
+@section('page_title', 'Home')
 @section('content')
 
-    <h1>home</h1>
+    <section class="welcome">
+
+        @include('partials.banner')
+        @include('partials.last')
+
+        
+
+    </section>
 
 @endsection
